@@ -1,0 +1,455 @@
+#navbarNav ul{
+    margin-left: auto;
+}
+*{
+    box-sizing: border-box;
+}
+#logo{
+    width:150px;
+    height:60px;
+}
+.menu{
+    margin-left: auto;
+    
+   
+    
+    
+}
+.menu a{
+    padding: 0px 10px;
+    font-family: cambria, Georgia, serif;
+    color: #9c27b0;
+    font-size: 20px;
+    text-decoration: none;
+}
+*,::before,::after{
+    box-sizing: border-box;
+}
+@media screen and (max-width:998px){
+    .menu{
+        width:auto;
+        font-size: 15px;
+    }
+}
+ @media (max-width:770px){
+    .none{
+      display: none;
+      font-size: 16px;
+
+    }
+ } 
+    @media (max-width:390px){
+        .menu{
+            width:auto;
+            font-size:15px;
+        }
+    }
+    @media (max-width:420px){
+        #logo{
+            width:100px
+        }
+    }
+    
+    .firsticons a{
+        text-decoration: none;
+        color:#424242;
+        font: 15px robot sans-serif;
+        
+    }
+    @media (max-width:425px){
+        .firsticons a,i{
+          display: none;
+          font-size: 16px;
+    
+        }
+     } 
+     
+       
+    .firsticons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+    .banner-slide{
+       /* background-color: #340D3BCC; */
+      background-image: url("back_mountain1.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover; 
+       position: relative;
+      
+    }
+    .banner-slide::before{
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(52, 13, 59);
+        width: 100%;
+        opacity: 0.7;
+        height: 100%;
+    } 
+    #carouselExampleAutoplaying{
+        padding: 60px;
+    }
+    .title{
+        font:30px san-serif;
+        padding: 20px;
+        font-family: 20px roboto, sans-serif;
+    }
+    .service-content{
+        display: flex;
+       
+        flex-direction: column;
+        text-align: center;
+        justify-content:center;
+        align-items: center;
+        width:100%;
+    
+    }
+    .servicetxt{
+        font-family: italic;
+        font-weight: 300px;
+        font-size: 20px;
+         color:gray;
+        
+         
+    }
+
+    .box1{
+        
+       position: relative;
+        border-bottom: 3px solid skyblue;
+        box-shadow: 2px 2px 8px gray;
+        margin-bottom: 10px;
+    }
+    
+
+    
+    .eimg1{
+      
+        height:150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mpc{
+        top:70px;
+        position: absolute;
+        height:120px;
+        width: 120px;
+        border:5px solid white;
+        border-radius: 60px;
+    }
+    .box-txt1{
+        
+        padding:40px 20px 20px;
+        text-align: justify;
+        font-size: 18px;
+        color:gray;
+    }
+
+    .eimg6{
+      
+        height:150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #9c27b0;
+    }
+
+    .boxes{
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+    
+        @media screen and(max-width:800px) {
+            .service-content{
+                font-size: 16px !important;
+                text-align: justify;
+                padding: 5px !important;
+            }
+        }
+    
+    
+    .pheading{
+        color:#ffff;
+        font-family:  sans-serif;
+        font-size: 36px;
+        text-align: center;
+        padding: 40px 25px; 
+    }
+
+    .features{
+        background-color: #ff9800;
+        padding: 60px 0px;
+        
+    }
+
+    .yellowbox{
+        background-color: #ffff;
+        padding: 25px 15px;
+    }
+
+    .academic{
+        color:#ff9800;
+        margin-bottom: 30px 0px;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+     
+
+    .one{
+        display:flex;
+        justify-content: space-between;
+        font-size: 18px;
+        text-align: center;
+        padding: 15px 50px;
+       
+
+        
+    }
+     .two{
+        color:#9c27b0 !important;
+        border-bottom: 3px solid #9c27b0 ;
+        border-width: 100%;
+           
+    }
+
+
+   .girllap{
+    width:100%;
+    height:auto;
+   }
+   
+   .img-fluid{
+    padding: 40px 15px;
+
+   }
+   
+
+    .synop{
+        padding:70px 10px;
+        font-size :16px;
+        
+    }
+    .bg-white{
+        border-radius: 50%;
+        padding: 1px 5px;
+        
+        
+        font-size: 10px;
+    }
+
+    .admission{
+        color:#9c27b0;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .sameboxes{
+        padding: 60px 15px;
+    }
+
+    .violet{
+        background-color: #9c27b0;
+        padding: 60px 15px;
+        margin-top: 4rem;
+    }
+
+    .violetbox1{
+        background-color: #ffff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    .fa-id-badge{
+        color:#9c27b0;
+        font-size: 50px;
+    }
+    .violettext{
+        font-size: 20px;
+        margin: 20px 0px 0px;
+    }
+    .number{
+        font-size: 30px;
+        margin:20px 0px 15px;
+    }
+
+    .Enroll{
+        color:#9c27b0;
+        font-size: 50px;
+    }
+
+    .baricon{
+        color:#9c27b0;
+        font-size: 50px;
+    }
+
+    .fa-rectangle-list{
+        color:#9c27b0;
+        font-size: 50px;
+    }
+
+    .violetheading{
+        color:white;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 50px;
+    
+    }
+
+
+    .orange{
+        background-color:#f44336;
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+    .orangeheading{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 30px;
+        padding: 20px 0px;
+    }
+
+    .orangebox1{
+        background-color: #ffff;
+        padding:20px 20px 20px 80px;
+    }
+    .carosal-bg{
+        background-color: transparent;
+        
+    }
+    .avatarimg{
+        height:90px;
+    }
+
+    .avatarposition{
+        position: relative;
+        top:50px;
+        right:20px;
+    }
+    .orangetext{
+        font-family: italic;
+        
+        
+    }
+
+    .footer{
+        background-color: #607d8b;
+        margin-top: 4rem;
+    }
+
+    .footer1{
+        line-height: 2.5rem;
+    }
+    .col-lg-5{
+        background-color: #455a64;
+       
+    }
+    .middle-box{
+        margin:20px 0px;
+        padding: 0px 15px;
+        
+    }
+
+    .media{
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 2.5rem;
+
+    }
+    .computer{
+        height: 75px;
+        width:75px;
+        border-radius: 50%;
+        position: center;
+        object-fit: contain;
+        margin-right: 16px;
+        
+        border-radius:1px solid  #607d8b  
+    }
+
+    .contentf1 a{
+        text-decoration: none;   
+    }
+    .middle-box .middle-text{
+        font-size: 17px;
+        color:#fff;
+        }
+
+        .last-box{
+            padding: 0px 15px;
+            color:#eee;
+            line-height: 1.5rem;
+            margin: 20px 0px;
+            
+        }
+        .last-content{
+            text-align: right;
+
+        }
+
+        .footrank{
+            font-size: 18px;
+            
+            
+        }
+        .education{
+            font-family:italic;
+            font-weight: normal;
+        }
+
+        .social-heading{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 100;
+        }
+
+        .last-icons{
+            display:inline-block;
+        }
+        .fb{
+            background-color: #333;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 20px;
+        }
+        .twit{
+            background-color: #333;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 20px;
+
+        }
+        .you{
+            background-color: #333;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 20px;
+        }
+        .copy{
+            background-color: #455a64;
+            text-align: center;
+            color:#999;
+        }
+        .copyright{
+            background-color: #455a64;
+
+        }
+        .righticon{
+            color:black;
+            position: absolute;
+            top:340px;
+            font-size: 25px;
+            background-color:white;
+            padding: 10px 10px;
+            border-radius: 50px;
+        }
+ 
+   
